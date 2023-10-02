@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <mata http-equiv="X-UA-Compatible" content="IE = edge">
+    <meta name="viewport" content="width = device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="Assign_style.css">
+    <script src="https://kit.fontawesome.com/1c36fbcd4f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!---------------Home---------------->
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images_assign/—Pngtree—hand drawn namaste card_6319546.png" class = "logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+        </nav> 
+        <div class="header-text">
+            <p>Web & Script Programming</p>
+            <h1><span>Welcome</span>, I am<br>Shalin Vaidya</h1>
+        </div>
+    </div>
+</div>
+
+<!------About------------------>
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images_assign/picture_me.PORTRAIT.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="title">About Me</h1>
+        <!------------- video -------------------->     
+                <video controls autoplay muted loop src="images_assign/aboutme_1.mp4" width="500" class="vid">
+                </video>
+        <!--------------Vid end ------------->        
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------------Projects----------->
+<div id="projects">
+    <div class="container">
+        <h1 class="title">My Projects</h1>
+        <div class="projects-list">
+            <div>
+                <i class="fa-brands fa-python"></i>
+                <h2>Python</h2>
+                <p>In the python project, I implemented two types of ciphers: Caesar cipher and Transposition cipher.
+                    I wrote python code to encrypt and decrypt messages using both Caesar and Transposition ciphers. I also wrote some test cases to check if my code works correctly. 
+                    I also learned how to use some python modules, such as sys, pyperclip, and random. I enjoyed working on this project because it was fun and challenging to create my own ciphers and crack them.</p>
+            </div>
+            <div>
+                <i class="fa-regular fa-file-excel"></i>
+                <h2>VBA</h2>
+                <p> Mortgage Stress Test Calculator using VBA. In this project,I created a useful application that can help potential home buyers evaluate their financial readiness and eligibility for a mortgage loan based on the FCAC guidelines and the stress test criteria. 
+                    I used various interface elements, such as labels, text boxes, buttons, and message boxes, to make the application user-friendly and interactive. 
+                    I also used error handling techniques, such as data validation and exception handling, to prevent invalid inputs and unexpected errors.
+                    I enjoyed working on this project because it was relevant and practical to real-world scenarios.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!---------contact--------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact_l">
+                <h1 class="con_title">Contact Me</h1>
+                <p><i class="fa-regular fa-paper-plane"></i>shalin.vaidya@ontariotechu.net</p>
+                <p><i class="fa-solid fa-square-phone"></i>+1 (905) 783-3168</p>
+                <div class="social_icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="contact_r">
+                <form>
+                    <input type="text" name = "Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © by Shalin. Made with <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+</body>
+</html>
